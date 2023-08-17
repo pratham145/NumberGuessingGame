@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    color: black;
+}
+.box{
+    width: 65%;
+    height: 80%;
+    padding: 0 10px;
+   
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 0 0  40px black;
+    
+}
+button{
+    width: 120px;
+    height: 40px;
+}
+.inp{
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 20px;
+}
+.prevv{
+    display: flex;
+    gap: 5px;
+}
+.guesses{
+    display: flex;
+    gap: 5px;
+}
+.words {
+    color: white;
+    font-size: 0;
+    line-height: 1.5;
+    gap: 3px;
+    letter-spacing: 2px;
+  }
+  
+  .words span {
+    font-size: 3rem;
+    display: inline-block;
+    animation: move 3s ease-in-out ;
+  }
+  .words span:hover{
+    animation: move 3s ease-in-out infinite;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(-30%, 0);
+    }
+    50% {
+      text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
+    }
+    100% {
+      transform: translate(30%, 0);
+    }
+  }
+  
+  .words span:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  
+  .words span:nth-child(3) {
+    animation-delay: 1s;
+  }
+  
+  .words span:nth-child(4) {
+    animation-delay: 1.5s;
+  }
+  
+  .words span:nth-child(5) {
+    animation-delay: 2s;
+  }
+  
+  .words span:nth-child(6) {
+    animation-delay: 2.5s;
+  }
+  
+  .words span:nth-child(7) {
+    animation-delay: 3s;
+  }
+  .words span:nth-child(8) {
+    animation-delay: 3.5s;
+  }
+  .words span:nth-child(9) {
+    animation-delay: 4s;
+  }
+  .words span:nth-child(10) {
+    animation-delay: 4.5s;
+  }
+  .words span:nth-child(11) {
+    animation-delay: 4.5s;
+  }
+  .words span:nth-child(12) {
+    animation-delay: 5.5s;
+  }
+  .words span:nth-child(13) {
+    animation-delay: 6s;
+  }
+  .words span:nth-child(14) {
+    animation-delay: 6.5s;
+  }
+  .words span:nth-child(15) {
+    animation-delay: 7s;
+  }
+  .words span:nth-child(16) {
+    animation-delay: 7.5s;
+  }
+  .words span:nth-child(17) {
+    animation-delay: 8s;
+  }
+  .words span:nth-child(18) {
+    animation-delay: 8.5s;
+  }
+  .words span:nth-child(19) {
+    animation-delay: 9s;
+  }
+  .words span:nth-child(20) {
+    animation-delay:9.5s;
+  }
