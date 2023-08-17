@@ -3,7 +3,7 @@ let num;
 let rn = Math.floor(Math.random()*100);
 let guess = 10
 let prev = []
-console.log(rn)
+
 document.querySelector("button").addEventListener("click", ()=>{
     num = Number(inp.value);
   
